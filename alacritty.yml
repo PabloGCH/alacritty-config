@@ -822,17 +822,30 @@ window:
   #print_events: false
 # material ocean color scheme
 colors:
+  name: 3024 (dark)
+  author: Chris Kempson
   primary:
-    background: '0x0f111a'
-    foreground: '0xD8DEE9'
+    background: "#191410"
+    foreground: "#F7DFC9"
   cursor:
-    cursor: '0xff4151'
+    text: "#090300"
+    cursor: "#F7DFC9"
   normal:
-    black:      '0x4C566A'
-    red:        '0xBF616A'
-    green:      '0xA3BE8C'
-    yellow:     '0xEBCB8B'
-    blue:       '0x81A1C1'
-    magenta:    '0xB48EAD'
-    cyan:       '0x88C0D0'
-    white:      '0xE5E9F0'
+    black: "#2E241A" #Darkest brown
+    red: "#FF3D33"
+    green: "#64482C" #Dark brown
+    yellow: "#72BED3"
+    blue: "#D7A570" #Light Brown
+    magenta: "#B57069"
+    cyan: "#b5e4f4"
+    white: "#a5a2a2"
+  bright:
+    black: "#413223" #Dark brown
+    red: "#FF5147" #Red
+    green: "#986939" #Bronze/lightBrown
+    yellow: "#83C5D8"
+    blue: "#DBAF80"
+    magenta: "#C18C86"
+    cyan: "#b5e4f4"
+    white: "#f7f7f7"
+theme: custom
